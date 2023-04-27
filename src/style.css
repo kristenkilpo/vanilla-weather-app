@@ -18,6 +18,7 @@ li {
   margin: 0;
   padding: 0;
   color: #70757a;
+  text-transform: capitalize;
   font-size: 12px;
   font-weight: 100;
   line-height: 16px;
