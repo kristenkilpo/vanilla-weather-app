@@ -23,7 +23,7 @@ li {
   line-height: 16px;
 }
 
-li ::first-letter {
+li::first-letter {
   text-transform: capitalize;
 }
 .weather-app-wrapper {
