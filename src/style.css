@@ -26,6 +26,11 @@ li {
 li::first-letter {
   text-transform: capitalize;
 }
+
+a {
+  text-decoration: none;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -69,6 +74,20 @@ li::first-letter {
   text-decoration: none;
 }
 
-a {
-  text-decoration: none;
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast.date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+.weather-temperatures {
+  font-size: 13px;
 }
